@@ -1,0 +1,2 @@
+Dom is a programming interface for web documents.It represents structure of HTML document as tree of objects which helps to interact and manipulate the content,structure and style of webpage dynamically
+the html code is taken by beowser which runs c++ on it and forms document tree in the memory and that generated tree is called as Dom

@@ -1,0 +1,11 @@
+JS has classes but it is a primarily prototype based language and classes are syntactic sugar over existing prototype based inheritance mechanisms
+
+Objects - collection of properties and methods
+
+Constructor function(this)- always gives new instance
+
+What happens behind new keyword
+1- A new object is created
+2- A prototype is linked: The newly created object gets linked to the prototype property of the constructor function.This means it has access to properties and methods defined on the constructor's prototype
+3- A constructor is called: The constructor function is called with the specified arguments and this is bound to the newly created object.If no explicit return value is specified from the constructor,JavaScript assumes this,the newly created object to be the intended return value
+4- The new object is created: After the constructor function has been called.if it doesnt return a non primitive value (object,array,function etc),the newly created object is returned.
